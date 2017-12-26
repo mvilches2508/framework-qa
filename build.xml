@@ -29,8 +29,5 @@
             </manifest>
         </jar>
     </target>
-    <target name="clean-build" depends="clean,jar"/>
-
-    <target name="main" depends="clean"/>
-
+    
 </project>
