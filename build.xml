@@ -1,4 +1,5 @@
-<project name="FrameworkQA" basedir="." default="clean">
+
+<project name="FrameworkQA" basedir="." default="main">
 
     <property name="src.dir"     value="/var/lib/jenkins/workspace/QA_Turbus/src"/>
 
@@ -11,7 +12,7 @@
 
     <path id="classpath">
         <fileset dir="${lib.dir}" includes="**/*.jar"/>
-    </path>
+		</path>
     <target name="clean">
         <delete dir="${build.dir}"/>
     </target>
@@ -29,5 +30,8 @@
             </manifest>
         </jar>
     </target>
-    
+    <target name="clean-build" depends="clean,jar"/>
+
+    <target name="main" depends="clean,run"/>
+
 </project>
