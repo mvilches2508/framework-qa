@@ -31,6 +31,6 @@
         </jar>
     </target>
     
-    <target name="main" depends="clean"/>
+    <target name="main" depends="clean,jar"/>
 
 </project>
