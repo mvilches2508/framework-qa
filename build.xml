@@ -1,4 +1,4 @@
-<project name="FrameworkQA" basedir="." default="default">
+<project name="FrameworkQA" basedir="." default="clean">
 
     <property name="src.dir"     value="/var/lib/jenkins/workspace/QA_Turbus/src"/>
 
