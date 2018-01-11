@@ -322,7 +322,7 @@
         <hashTree/>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Login" enabled="true"/>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="281 /DLS/usuarios/login/ingreso.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="281 /ddls/usuarios/login/ingreso.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -330,7 +330,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/usuarios/login/ingreso.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/usuarios/login/ingreso.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -371,7 +371,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="292 /DLS/usuarios/login/ingreso.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="292 /ddls/usuarios/login/ingreso.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -379,7 +379,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/usuarios/login/ingreso.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/usuarios/login/ingreso.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -394,7 +394,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/usuarios/login/ingreso.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/usuarios/login/ingreso.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -424,7 +424,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="302 /DLS/usuarios/login/ingreso.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="302 /ddls/usuarios/login/ingreso.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="ip" elementType="HTTPArgument">
@@ -468,7 +468,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/usuarios/login/ingreso.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/usuarios/login/ingreso.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -484,7 +484,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/usuarios/login/ingreso.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/usuarios/login/ingreso.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -521,7 +521,7 @@
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Emisión" enabled="true"/>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="303 /DLS/emision/normal/emision.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="303 /ddls/emision/normal/emision.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -529,7 +529,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/emision.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/emision.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -545,7 +545,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/usuarios/login/ingreso.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/usuarios/login/ingreso.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -575,7 +575,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="350 /DLS/emision/nueva/inicio.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="350 /ddls/emision/nueva/inicio.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -583,7 +583,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -598,7 +598,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/normal/emision.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/normal/emision.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -628,7 +628,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="361 /DLS/emision/normal/inicioAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="361 /ddls/emision/normal/inicioAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="nombreCiudadDestino" elementType="HTTPArgument">
@@ -651,7 +651,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -666,7 +666,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -716,7 +716,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="362 /DLS/emision/normal/inicioAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="362 /ddls/emision/normal/inicioAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="nombreCiudadDestino" elementType="HTTPArgument">
@@ -739,7 +739,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -754,7 +754,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -804,7 +804,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="363 /DLS/emision/normal/inicioAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="363 /ddls/emision/normal/inicioAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -841,7 +841,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -856,7 +856,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -886,7 +886,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="364 /DLS/emision/normal/ayuda/tipos.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="364 /ddls/emision/normal/ayuda/tipos.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="tipo" elementType="HTTPArgument">
@@ -902,7 +902,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ayuda/tipos.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ayuda/tipos.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -917,7 +917,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -955,7 +955,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="365 /DLS/emision/normal/ingresoEncargosAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="365 /ddls/emision/normal/ingresoEncargosAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="contenidoEncargos" elementType="HTTPArgument">
@@ -985,7 +985,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ingresoEncargosAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ingresoEncargosAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1000,7 +1000,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1050,7 +1050,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="366 /DLS/emision/normal/ingresoEncargosAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="366 /ddls/emision/normal/ingresoEncargosAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="contenidoEncargos" elementType="HTTPArgument">
@@ -1080,7 +1080,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ingresoEncargosAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ingresoEncargosAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1095,7 +1095,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1145,7 +1145,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="367 /DLS/emision/normal/ingresoEncargosAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="367 /ddls/emision/normal/ingresoEncargosAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="contenidoEncargos" elementType="HTTPArgument">
@@ -1175,7 +1175,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ingresoEncargosAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ingresoEncargosAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1190,7 +1190,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1240,7 +1240,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="368 /DLS/emision/normal/ayuda/tipos.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="368 /ddls/emision/normal/ayuda/tipos.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="tipo" elementType="HTTPArgument">
@@ -1256,7 +1256,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ayuda/tipos.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ayuda/tipos.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1271,7 +1271,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1309,7 +1309,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="369 /DLS/emision/normal/inicioAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="369 /ddls/emision/normal/inicioAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="nombreTipoEncargoNuevo" elementType="HTTPArgument">
@@ -1332,7 +1332,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1347,7 +1347,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1397,7 +1397,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="370 /DLS/emision/normal/inicioAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="370 /ddls/emision/normal/inicioAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="tipoEncargo" elementType="HTTPArgument">
@@ -1420,7 +1420,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1435,7 +1435,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1465,7 +1465,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="373 /DLS/emision/normal/ayuda/tipos.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="373 /ddls/emision/normal/ayuda/tipos.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="tipo" elementType="HTTPArgument">
@@ -1481,7 +1481,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ayuda/tipos.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ayuda/tipos.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1496,7 +1496,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1534,7 +1534,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="374 /DLS/emision/nueva/emisionAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="374 /ddls/emision/nueva/emisionAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -1606,7 +1606,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/emisionAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/emisionAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1621,7 +1621,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1651,7 +1651,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="375 /DLS/emision/nueva/emisionAjax.do?accion=agregarListaEncargosAEmisionNormal&amp;ed=0&amp;ctee=10&amp;tc=29&amp;tn=BULTO%20EN%20KILOGRAMOS&amp;uc=1&amp;un=KGS&amp;cb=1&amp;k=10&amp;an=100&amp;al=100&amp;la=100&amp;valorDeclarado=50000" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="375 /ddls/emision/nueva/emisionAjax.do?accion=agregarListaEncargosAEmisionNormal&amp;ed=0&amp;ctee=10&amp;tc=29&amp;tn=BULTO%20EN%20KILOGRAMOS&amp;uc=1&amp;un=KGS&amp;cb=1&amp;k=10&amp;an=100&amp;al=100&amp;la=100&amp;valorDeclarado=50000" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -1659,7 +1659,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/emisionAjax.do?accion=agregarListaEncargosAEmisionNormal&amp;ed=0&amp;ctee=10&amp;tc=29&amp;tn=BULTO%20EN%20KILOGRAMOS&amp;uc=1&amp;un=KGS&amp;cb=1&amp;k=10&amp;an=100&amp;al=100&amp;la=100&amp;valorDeclarado=50000</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/emisionAjax.do?accion=agregarListaEncargosAEmisionNormal&amp;ed=0&amp;ctee=10&amp;tc=29&amp;tn=BULTO%20EN%20KILOGRAMOS&amp;uc=1&amp;un=KGS&amp;cb=1&amp;k=10&amp;an=100&amp;al=100&amp;la=100&amp;valorDeclarado=50000</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1674,7 +1674,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1724,7 +1724,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="376 /DLS/emision/nueva/tarifaEmisionNueva.do?tipo=contenido&amp;id=&amp;validado=si&amp;codigoCiudadDestino=1&amp;codigoTipoPago=2&amp;nombreCiudadDestino=SANTIAGO&amp;numeroTarjeta=19154&amp;digitoVerificador=K&amp;centroCosto=0&amp;clasificacionPorBultos=0" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="376 /ddls/emision/nueva/tarifaEmisionNueva.do?tipo=contenido&amp;id=&amp;validado=si&amp;codigoCiudadDestino=1&amp;codigoTipoPago=2&amp;nombreCiudadDestino=SANTIAGO&amp;numeroTarjeta=19154&amp;digitoVerificador=K&amp;centroCosto=0&amp;clasificacionPorBultos=0" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="kilosNoHomogeneos" elementType="HTTPArgument">
@@ -1775,7 +1775,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/tarifaEmisionNueva.do?tipo=contenido&amp;id=&amp;validado=si&amp;codigoCiudadDestino=1&amp;codigoTipoPago=2&amp;nombreCiudadDestino=SANTIAGO&amp;numeroTarjeta=19154&amp;digitoVerificador=K&amp;centroCosto=0&amp;clasificacionPorBultos=0</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/tarifaEmisionNueva.do?tipo=contenido&amp;id=&amp;validado=si&amp;codigoCiudadDestino=1&amp;codigoTipoPago=2&amp;nombreCiudadDestino=SANTIAGO&amp;numeroTarjeta=19154&amp;digitoVerificador=K&amp;centroCosto=0&amp;clasificacionPorBultos=0</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1790,7 +1790,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1840,7 +1840,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="380 /DLS/emision/nueva/tarifaEmisionNueva.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="380 /ddls/emision/nueva/tarifaEmisionNueva.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -1898,7 +1898,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/tarifaEmisionNueva.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/tarifaEmisionNueva.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1913,7 +1913,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1943,7 +1943,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="385 /DLS/emision/nueva/inicio.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="385 /ddls/emision/nueva/inicio.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -1964,7 +1964,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1979,7 +1979,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2009,7 +2009,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="392 /DLS/emision/nueva/inicio.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="392 /ddls/emision/nueva/inicio.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="_target2" elementType="HTTPArgument">
@@ -2530,7 +2530,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2545,7 +2545,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2579,7 +2579,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="399 /DLS/emision/nueva/inicio.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="399 /ddls/emision/nueva/inicio.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -2621,7 +2621,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2636,7 +2636,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2666,7 +2666,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="400 /DLS/emision/nueva/inicio.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="400 /ddls/emision/nueva/inicio.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -2694,7 +2694,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2709,7 +2709,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2739,7 +2739,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="401 /DLS/emision/nueva/inicio.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="401 /ddls/emision/nueva/inicio.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -2781,7 +2781,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2796,7 +2796,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2826,7 +2826,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="403 /DLS/emision/comunes/clienteAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="403 /ddls/emision/comunes/clienteAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="destinatario.nombreComuna" elementType="HTTPArgument">
@@ -2870,7 +2870,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/comunes/clienteAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/comunes/clienteAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2885,7 +2885,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2935,7 +2935,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="404 /DLS/emision/nueva/inicio.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="404 /ddls/emision/nueva/inicio.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="_target10" elementType="HTTPArgument">
@@ -3406,7 +3406,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3421,7 +3421,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3455,7 +3455,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="411 /DLS/emision/nueva/inicio.do?continuarAtencion=false" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="411 /ddls/emision/nueva/inicio.do?continuarAtencion=false" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="_finish" elementType="HTTPArgument">
@@ -3471,7 +3471,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do?continuarAtencion=false</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do?continuarAtencion=false</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3487,7 +3487,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3530,7 +3530,7 @@
             </RegexExtractor>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="412 /DLS/pago/pagoPendiente.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="412 /ddls/pago/pagoPendiente.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="codigoOF" elementType="HTTPArgument">
@@ -3546,7 +3546,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/pago/pagoPendiente.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/pago/pagoPendiente.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3562,7 +3562,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3592,7 +3592,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="416 /DLS/emision/impresion/ImprimirComprobante.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="416 /ddls/emision/impresion/ImprimirComprobante.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -3608,7 +3608,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/impresion/ImprimirComprobante.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/impresion/ImprimirComprobante.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3623,7 +3623,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/pago/pagoPendiente.do?codigoOF=908650085</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/pago/pagoPendiente.do?codigoOF=908650085</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3661,7 +3661,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="419 /DLS/pago/pagoPendiente.do?codigoOF=908650085" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="419 /ddls/pago/pagoPendiente.do?codigoOF=908650085" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -3669,7 +3669,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/pago/pagoPendiente.do?codigoOF=908650085</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/pago/pagoPendiente.do?codigoOF=908650085</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3685,7 +3685,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/pago/pagoPendiente.do?codigoOF=908650085</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/pago/pagoPendiente.do?codigoOF=908650085</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3719,7 +3719,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="420 /DLS/emision/nueva/inicio.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="420 /ddls/emision/nueva/inicio.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -3727,7 +3727,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3743,7 +3743,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/pago/pagoPendiente.do?codigoOF=908650085</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/pago/pagoPendiente.do?codigoOF=908650085</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3776,7 +3776,7 @@
         </hashTree>
         <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Redestinación" enabled="true"/>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="424 /DLS/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="424 /ddls/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -3784,7 +3784,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3799,7 +3799,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3829,7 +3829,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="428 /DLS/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="428 /ddls/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="_target1" elementType="HTTPArgument">
@@ -3859,7 +3859,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3874,7 +3874,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3908,7 +3908,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="432 /DLS/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="432 /ddls/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -3945,7 +3945,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3960,7 +3960,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3990,7 +3990,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="433 /DLS/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="433 /ddls/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="_target2" elementType="HTTPArgument">
@@ -4062,7 +4062,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4077,7 +4077,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4111,7 +4111,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="437 /DLS/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="437 /ddls/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="accion" elementType="HTTPArgument">
@@ -4141,7 +4141,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4156,7 +4156,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4186,7 +4186,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="438 /DLS/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="438 /ddls/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="comunaDestinatario" elementType="HTTPArgument">
@@ -4216,7 +4216,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/redestinacion/destinatario/ingresoDestinatarioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4231,7 +4231,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -4281,7 +4281,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="439 /DLS/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="439 /ddls/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="_finish" elementType="HTTPArgument">
@@ -4409,7 +4409,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4424,7 +4424,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4458,7 +4458,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="443 /DLS/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="443 /ddls/emision/redestinacionOF/destinatario/ingresoOF.do" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -4466,7 +4466,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4481,7 +4481,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/redestinacionOF/destinatario/ingresoOF.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
