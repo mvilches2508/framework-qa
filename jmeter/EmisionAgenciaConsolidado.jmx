@@ -375,7 +375,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/usuarios/login/ingreso.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/usuarios/login/ingreso.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -424,7 +424,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/usuarios/login/ingreso.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/usuarios/login/ingreso.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -439,7 +439,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/usuarios/login/ingreso.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/usuarios/login/ingreso.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -513,7 +513,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/usuarios/login/ingreso.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/usuarios/login/ingreso.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -529,7 +529,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/usuarios/login/ingreso.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/usuarios/login/ingreso.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -574,7 +574,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/emision.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/emision.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -590,7 +590,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/usuarios/login/ingreso.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/usuarios/login/ingreso.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -628,7 +628,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/liquidaciones/cajas/abrirCaja.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/liquidaciones/cajas/abrirCaja.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -643,7 +643,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/normal/emision.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/normal/emision.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -710,7 +710,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/liquidaciones/cajas/abrirCaja.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/liquidaciones/cajas/abrirCaja.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -725,7 +725,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/liquidaciones/cajas/abrirCaja.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/liquidaciones/cajas/abrirCaja.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -767,7 +767,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/liquidaciones/cajas/abrirCajaCajero.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/liquidaciones/cajas/abrirCajaCajero.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -782,7 +782,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/liquidaciones/cajas/abrirCaja.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/liquidaciones/cajas/abrirCaja.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -842,7 +842,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/liquidaciones/cajas/abrirCajaCajero.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/liquidaciones/cajas/abrirCajaCajero.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -857,7 +857,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/liquidaciones/cajas/abrirCajaCajero.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/liquidaciones/cajas/abrirCajaCajero.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -902,7 +902,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -917,7 +917,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/liquidaciones/cajas/abrirCajaCajero.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/liquidaciones/cajas/abrirCajaCajero.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -970,7 +970,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -985,7 +985,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1072,7 +1072,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1087,7 +1087,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1133,7 +1133,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ayuda/tipos.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ayuda/tipos.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1148,7 +1148,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1216,7 +1216,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ingresoEncargosAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ingresoEncargosAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1231,7 +1231,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1297,7 +1297,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ayuda/tipos.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ayuda/tipos.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1312,7 +1312,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1373,7 +1373,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1388,7 +1388,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1461,7 +1461,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/inicioAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/inicioAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1476,7 +1476,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1522,7 +1522,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/normal/ayuda/tipos.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/normal/ayuda/tipos.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1537,7 +1537,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1583,7 +1583,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/emisionAjax.do?accion=agregarListaEncargosAEmisionNormal&amp;ed=0&amp;ctee=10&amp;tc=29&amp;tn=BULTO%20EN%20KILOGRAMOS&amp;uc=1&amp;un=KGS&amp;cb=1&amp;k=200&amp;an=250&amp;al=250&amp;la=250&amp;valorDeclarado=50000</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/emisionAjax.do?accion=agregarListaEncargosAEmisionNormal&amp;ed=0&amp;ctee=10&amp;tc=29&amp;tn=BULTO%20EN%20KILOGRAMOS&amp;uc=1&amp;un=KGS&amp;cb=1&amp;k=200&amp;an=250&amp;al=250&amp;la=250&amp;valorDeclarado=50000</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1598,7 +1598,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1720,7 +1720,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/emisionAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/emisionAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1735,7 +1735,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -1816,7 +1816,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/tarifaEmisionNueva.do?tipo=contenido&amp;id=&amp;validado=si&amp;codigoCiudadDestino=1&amp;codigoTipoPago=2&amp;nombreCiudadDestino=SANTIAGO&amp;numeroTarjeta=19154&amp;digitoVerificador=K&amp;centroCosto=0&amp;clasificacionPorBultos=0</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/tarifaEmisionNueva.do?tipo=contenido&amp;id=&amp;validado=si&amp;codigoCiudadDestino=1&amp;codigoTipoPago=2&amp;nombreCiudadDestino=SANTIAGO&amp;numeroTarjeta=19154&amp;digitoVerificador=K&amp;centroCosto=0&amp;clasificacionPorBultos=0</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1831,7 +1831,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1939,7 +1939,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/tarifaEmisionNueva.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/tarifaEmisionNueva.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1954,7 +1954,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2005,7 +2005,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2020,7 +2020,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2569,7 +2569,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2584,7 +2584,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2660,7 +2660,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2675,7 +2675,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2733,7 +2733,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2748,7 +2748,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2820,7 +2820,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2835,7 +2835,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -2909,7 +2909,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/comunes/clienteAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/comunes/clienteAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2924,7 +2924,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3018,7 +3018,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/comunes/clienteAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/comunes/clienteAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3033,7 +3033,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -3554,7 +3554,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3569,7 +3569,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3619,7 +3619,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do?continuarAtencion=false</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do?continuarAtencion=false</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3635,7 +3635,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3694,7 +3694,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/pago/pagoPendiente.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/pago/pagoPendiente.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3710,7 +3710,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3756,7 +3756,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/impresion/ImprimirComprobante.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/impresion/ImprimirComprobante.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3771,7 +3771,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/pago/pagoPendiente.do?codigoOF=908649065</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/pago/pagoPendiente.do?codigoOF=908649065</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3817,7 +3817,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/pago/pagoPendiente.do?codigoOF=${NroOrdenFlete}</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/pago/pagoPendiente.do?codigoOF=${NroOrdenFlete}</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3833,7 +3833,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/pago/pagoPendiente.do?codigoOF=908649065</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/pago/pagoPendiente.do?codigoOF=908649065</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3875,7 +3875,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/emision/nueva/inicio.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/emision/nueva/inicio.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3891,7 +3891,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/pago/pagoPendiente.do?codigoOF=908649065</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/pago/pagoPendiente.do?codigoOF=908649065</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3932,7 +3932,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/informes/seguimiento/busquedaSeguimiento.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/informes/seguimiento/busquedaSeguimiento.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3947,7 +3947,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/emision/nueva/inicio.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/emision/nueva/inicio.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -3985,7 +3985,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4000,7 +4000,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/busquedaSeguimiento.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/busquedaSeguimiento.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4207,7 +4207,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4222,7 +4222,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4286,7 +4286,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/aplicacion/comunes/controlAutocompletarAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/aplicacion/comunes/controlAutocompletarAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4301,7 +4301,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -4381,7 +4381,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/aplicacion/comunes/controlAutocompletarAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/aplicacion/comunes/controlAutocompletarAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4396,7 +4396,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -4623,7 +4623,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4638,7 +4638,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4688,7 +4688,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/informes/seguimiento/busquedaAvanzada.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/informes/seguimiento/busquedaAvanzada.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4703,7 +4703,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/seguimientoBusquedaAvanzada.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4763,7 +4763,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/informes/seguimiento/ajax/busquedaSeguimientoAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/informes/seguimiento/ajax/busquedaSeguimientoAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4778,7 +4778,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/busquedaAvanzada.do?codigoOrdenFlete=908649065</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/busquedaAvanzada.do?codigoOrdenFlete=908649065</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4828,7 +4828,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/recepcion/recepcionarNomina.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/recepcion/recepcionarNomina.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4843,7 +4843,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/busquedaAvanzada.do?codigoOrdenFlete=908649065</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/busquedaAvanzada.do?codigoOrdenFlete=908649065</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4889,7 +4889,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/recepcion/recepcionarNominaAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/recepcion/recepcionarNominaAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4904,7 +4904,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/recepcion/recepcionarNomina.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/recepcion/recepcionarNomina.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -4964,7 +4964,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/informes/seguimiento/ajax/busquedaSeguimientoAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/informes/seguimiento/ajax/busquedaSeguimientoAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -4979,7 +4979,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/informes/seguimiento/busquedaAvanzada.do?codigoOrdenFlete=908649065</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/informes/seguimiento/busquedaAvanzada.do?codigoOrdenFlete=908649065</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5039,7 +5039,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/recepcion/recepcionarNominaAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/recepcion/recepcionarNominaAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5054,7 +5054,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/recepcion/recepcionarNomina.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/recepcion/recepcionarNomina.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5100,7 +5100,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/recepcion/recepcionarNominaAjax.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/recepcion/recepcionarNominaAjax.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5115,7 +5115,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/recepcion/recepcionarNomina.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/recepcion/recepcionarNomina.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5315,7 +5315,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/recepcion/recepcionarNomina.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/recepcion/recepcionarNomina.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5330,7 +5330,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/recepcion/recepcionarNomina.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/recepcion/recepcionarNomina.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5375,7 +5375,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5390,7 +5390,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/recepcion/recepcionarNomina.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/recepcion/recepcionarNomina.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5499,7 +5499,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5514,7 +5514,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5634,7 +5634,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5649,7 +5649,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5727,7 +5727,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5742,7 +5742,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5876,7 +5876,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do?continuarAtencion=false</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do?continuarAtencion=false</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5892,7 +5892,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5942,7 +5942,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -5957,7 +5957,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -5998,7 +5998,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -6013,7 +6013,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do?of=nueva</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do?of=nueva</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -6087,7 +6087,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -6102,7 +6102,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -6194,7 +6194,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">ISO-8859-1</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -6209,7 +6209,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
@@ -6251,7 +6251,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
-            <stringProp name="HTTPSampler.path">/DLS/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
+            <stringProp name="HTTPSampler.path">/ddls/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
             <stringProp name="HTTPSampler.method">GET</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -6266,7 +6266,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://cargaqa.starken.cl/DLS/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
+                  <stringProp name="Header.value">http://cargaqa.starken.cl/ddls/entrega/rendicionComprobanteEntrega/rendicionComprobanteEntrega.do</stringProp>
                 </elementProp>
                 <elementProp name="Keep-Alive" elementType="Header">
                   <stringProp name="Header.name">Keep-Alive</stringProp>
