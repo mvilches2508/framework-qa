@@ -30,7 +30,7 @@
         </CookieManager>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Boletas" enabled="true">
-          <stringProp name="filename">\var\lib\jenkins\workspace\QA_Turbus\jmeter\boletas.txt</stringProp>
+          <stringProp name="filename">/var/lib/jenkins/workspace/QA_Turbus/jmeter/boletas.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">folioinicial,foliofinal</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -42,7 +42,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="true">
-          <stringProp name="filename">\var\lib\jenkins\workspace\QA_Turbus\jmeter\login.txt</stringProp>
+          <stringProp name="filename">/var/lib/jenkins/workspace/QA_Turbus/jmeter/login.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">user,pass</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
