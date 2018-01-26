@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reporte" language="groovy" pageWidth="900" pageHeight="582" orientation="Landscape" columnWidth="860" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b00db065-ac13-4b3f-a976-97b55fad9570">
+	<property name="ireport.zoom" value="1.9965000000000022"/>
+	<property name="ireport.x" value="328"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT tc.Name AS Test, m.abreviatura AS Modulo,
+                        tc.descripcion AS Descripcion,
+                        tr.observaciones AS Observaciones, tr.fecha AS Fecha,
+                        tr.TiempoTX AS Tiempo_de_ejecucion FROM test_result tr,
+                        test_case tc, modulo m, functional_scene fs
+                WHERE tr.idTestCase = tc.idTestCase AND tc.id_FunctionalScene=fs.idFunctional_Scene
+                        AND fs.idModulo=m.idModulo AND tr.resultado = false
+                        AND DATE_FORMAT(tr.fecha,'%Y-%m-%d') = DATE_FORMAT(now(),'%Y-%m-%d')
+                        ORDER by tr.idTest_Result DESC]]>
+	</queryString>
+	<field name="Test" class="java.lang.String"/>
+	<field name="Modulo" class="java.lang.String"/>
+	<field name="Descripcion" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Observaciones" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Fecha" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Tiempo_de_ejecucion" class="java.sql.Time"/>
+	<title>
+		<band height="82" splitType="Stretch">
+			<staticText>
+				<reportElement x="192" y="0" width="443" height="35" uuid="668b7093-378b-4b8a-817a-f57a6b29df67"/>
+				<textElement>
+					<font fontName="Calibri Light" size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reporte de errores test automatización]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="693" y="35" width="39" height="20" uuid="43e95fe2-8f3b-4d71-af36-ac96caf60cbf"/>
+				<textElement>
+					<font fontName="Calibri Light" size="12"/>
+				</textElement>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="732" y="35" width="125" height="16" forecolor="#000000" backcolor="#000000" uuid="032d55e0-ab7a-403e-88f8-4c566a6488c2"/>
+				<textElement textAlignment="Right">
+					<font fontName="Calibri Light" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="24" splitType="Stretch">
+			<staticText>
+				<reportElement x="97" y="2" width="37" height="22" uuid="fe47e532-357d-4fd9-bc11-228be997666d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Test]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="276" y="4" width="100" height="20" uuid="af074d14-1551-4f6c-8900-a157176e61fd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descripción]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="510" y="4" width="100" height="20" uuid="e53dad1e-238a-495f-b1f8-8ce1240e1b0e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Observaciones]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="620" y="4" width="100" height="20" uuid="b6676963-82f8-4f55-8b68-4521422faa9f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fecha]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="729" y="5" width="128" height="19" uuid="432cff92-1a4d-4e2a-87b0-cb0bc4a8ae82"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tiempo de ejecución]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="3" width="52" height="21" uuid="fe47e532-357d-4fd9-bc11-228be997666d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Módulo]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="41" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="0" width="860" height="1" uuid="a56b177c-2553-4623-9f9b-b581db0bb107"/>
+			</line>
+			<textField>
+				<reportElement x="87" y="13" width="72" height="20" uuid="2e172956-11ad-48b9-9fa2-869c7cbe42ef"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Test}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="169" y="13" width="330" height="20" uuid="6da832f6-5fa9-4485-9736-b7b98272134b"/>
+				<textElement>
+					<font fontName="Calibri Light" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Descripcion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="510" y="13" width="100" height="20" uuid="02dc53be-4b00-47ac-b25c-a6a02ddfdd0a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Observaciones}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="yyyy/MM/dd HH:mm:ss">
+				<reportElement x="620" y="13" width="100" height="20" uuid="b0bc1753-0510-4226-b7c0-2bc34c78a75a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Fecha}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="HH:mm:ss">
+				<reportElement x="747" y="13" width="100" height="20" uuid="3ea46a4c-8247-4eeb-9f12-82a7d94c412f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Tiempo_de_ejecucion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="25" y="13" width="46" height="20" uuid="2e172956-11ad-48b9-9fa2-869c7cbe42ef"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri Light" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Modulo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="4" y="13" width="15" height="28" uuid="f3527900-96c3-465f-9be3-ed16baa24f74"/>
+				<textElement>
+					<font fontName="Calibri Light" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{COLUMN_COUNT}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="22" splitType="Stretch">
+			<textField>
+				<reportElement x="760" y="0" width="55" height="20" uuid="ae2ff559-2819-48c0-a0b8-81635d0ce12a"/>
+				<textElement textAlignment="Right">
+					<font fontName="Calibri Light" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="822" y="0" width="38" height="20" uuid="7ce05167-4dac-4e80-b47d-22e633d95d6c"/>
+				<textElement>
+					<font fontName="Calibri Light" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+</jasperReport>
