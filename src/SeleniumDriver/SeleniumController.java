@@ -5,7 +5,7 @@
  */
 package SeleniumDriver;
 
-import Util.TipoFile;
+import util.TipoFile;
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
