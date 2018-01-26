@@ -1,8 +1,8 @@
 package MQ;
 
 
-import Util.File_Propiedades;
-import Util.TipoFile;
+import util.File_Propiedades;
+import util.TipoFile;
 import com.ibm.mq.*;
 import java.util.Properties;
 
