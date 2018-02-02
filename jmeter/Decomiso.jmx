@@ -27,7 +27,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaCreacion" elementType="Argument">
               <stringProp name="Argument.name">fechaCreacion</stringProp>
-              <stringProp name="Argument.value">13/12/2017 13:33</stringProp>
+              <stringProp name="Argument.value">02/02/2018 14:33</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -37,7 +37,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="horaDecomiso" elementType="Argument">
               <stringProp name="Argument.name">horaDecomiso</stringProp>
-              <stringProp name="Argument.value">13:35</stringProp>
+              <stringProp name="Argument.value">14:35</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -47,7 +47,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaAccion" elementType="Argument">
               <stringProp name="Argument.name">fechaAccion</stringProp>
-              <stringProp name="Argument.value">13/12/2017</stringProp>
+              <stringProp name="Argument.value">02/02/2018</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -57,7 +57,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaAgenda" elementType="Argument">
               <stringProp name="Argument.name">fechaAgenda</stringProp>
-              <stringProp name="Argument.value">13/12/2017</stringProp>
+              <stringProp name="Argument.value">02/02/2018</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -67,7 +67,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaEstimada" elementType="Argument">
               <stringProp name="Argument.name">fechaEstimada</stringProp>
-              <stringProp name="Argument.value">13/12/2017</stringProp>
+              <stringProp name="Argument.value">02/02/2018</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -80,7 +80,7 @@
         </CookieManager>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="true">
-          <stringProp name="filename">/var/lib/jenkins/workspace/QA_Turbus/jmeter/login.txt</stringProp>
+          <stringProp name="filename">\var\lib\jenkins\workspace\QA_Turbus\jmeter\login.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">user,pass</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>

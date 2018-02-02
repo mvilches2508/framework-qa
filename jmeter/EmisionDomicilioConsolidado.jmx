@@ -24,7 +24,7 @@
       </com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup>
       <hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="true">
-          <stringProp name="filename">/var/lib/jenkins/workspace/QA_Turbus/jmeter/login.txt</stringProp>
+          <stringProp name="filename">\var\lib\jenkins\workspace\QA_Turbus\jmeter\login.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">user,pass</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -175,7 +175,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaEstimada" elementType="Argument">
               <stringProp name="Argument.name">fechaEstimada</stringProp>
-              <stringProp name="Argument.value">13/12/2017</stringProp>
+              <stringProp name="Argument.value">03/22/2018</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -185,7 +185,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="horaEstimada" elementType="Argument">
               <stringProp name="Argument.name">horaEstimada</stringProp>
-              <stringProp name="Argument.value">12:58</stringProp>
+              <stringProp name="Argument.value">14:38</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
