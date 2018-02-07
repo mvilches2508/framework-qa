@@ -15,9 +15,9 @@
         <elementProp name="ThreadGroup.main_controller" elementType="com.blazemeter.jmeter.control.VirtualUserController"/>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="TargetLevel">200</stringProp>
-        <stringProp name="RampUp">30</stringProp>
+        <stringProp name="RampUp">5</stringProp>
         <stringProp name="Steps">10</stringProp>
-        <stringProp name="Hold">60</stringProp>
+        <stringProp name="Hold">30</stringProp>
         <stringProp name="LogFilename"></stringProp>
         <stringProp name="Iterations"></stringProp>
         <stringProp name="Unit">M</stringProp>
@@ -27,7 +27,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaCreacion" elementType="Argument">
               <stringProp name="Argument.name">fechaCreacion</stringProp>
-              <stringProp name="Argument.value">02/02/2018 14:33</stringProp>
+              <stringProp name="Argument.value">07/02/2018 16:33</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -37,7 +37,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="horaDecomiso" elementType="Argument">
               <stringProp name="Argument.name">horaDecomiso</stringProp>
-              <stringProp name="Argument.value">14:35</stringProp>
+              <stringProp name="Argument.value">16:35</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -47,7 +47,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaAccion" elementType="Argument">
               <stringProp name="Argument.name">fechaAccion</stringProp>
-              <stringProp name="Argument.value">02/02/2018</stringProp>
+              <stringProp name="Argument.value">07/02/2018</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -57,7 +57,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaAgenda" elementType="Argument">
               <stringProp name="Argument.name">fechaAgenda</stringProp>
-              <stringProp name="Argument.value">02/02/2018</stringProp>
+              <stringProp name="Argument.value">07/02/2018</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -67,7 +67,7 @@
           <collectionProp name="Arguments.arguments">
             <elementProp name="fechaEstimada" elementType="Argument">
               <stringProp name="Argument.name">fechaEstimada</stringProp>
-              <stringProp name="Argument.value">02/02/2018</stringProp>
+              <stringProp name="Argument.value">07/02/2018</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
