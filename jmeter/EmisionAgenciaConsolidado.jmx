@@ -15,7 +15,7 @@
         <elementProp name="ThreadGroup.main_controller" elementType="com.blazemeter.jmeter.control.VirtualUserController"/>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <stringProp name="TargetLevel">200</stringProp>
-        <stringProp name="RampUp">5</stringProp>
+        <stringProp name="RampUp">4</stringProp>
         <stringProp name="Steps">10</stringProp>
         <stringProp name="Hold">30</stringProp>
         <stringProp name="LogFilename"></stringProp>
@@ -693,7 +693,7 @@
                 <elementProp name="rangoFinal" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">rangoFinal</stringProp>
-                  <stringProp name="Argument.value">$[foliofinal}</stringProp>
+                  <stringProp name="Argument.value">${foliofinal}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
@@ -832,7 +832,7 @@
                 <elementProp name="rangoFinal" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.name">rangoFinal</stringProp>
-                  <stringProp name="Argument.value">${folifinal}</stringProp>
+                  <stringProp name="Argument.value">${foliofinal}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                   <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 </elementProp>
