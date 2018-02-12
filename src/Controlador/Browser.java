@@ -7,6 +7,6 @@ public enum Browser {
     safari,
     opera,
     edge,
-    pepe
+    pepeito
 
 }

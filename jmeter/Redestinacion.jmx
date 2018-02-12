@@ -24,7 +24,7 @@
       </com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadGroup>
       <hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="true">
-          <stringProp name="filename">\var\lib\jenkins\workspace\QA_Turbus\jmeter\login.txt</stringProp>
+          <stringProp name="filename">/var/lib/jenkins/workspace/QA_Turbus/jmeter/login.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">user,pass</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
