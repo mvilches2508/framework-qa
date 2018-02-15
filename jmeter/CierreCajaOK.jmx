@@ -17,7 +17,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">2</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1518107460000</longProp>
         <longProp name="ThreadGroup.end_time">1518107460000</longProp>
@@ -37,7 +37,7 @@
         </Arguments>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="true">
-          <stringProp name="filename">C:\Users\dlsclient\Desktop\Carpeta\Jmeter\login.txt</stringProp>
+          <stringProp name="filename">C:\Desarrollo\framework-qa\jmeter\login.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">user,pass</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
