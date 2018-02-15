@@ -17,7 +17,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">5</stringProp>
+        <stringProp name="ThreadGroup.num_threads">20</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1518472349000</longProp>
         <longProp name="ThreadGroup.end_time">1518472349000</longProp>
@@ -26,6 +26,30 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="LoginAntofagasta" enabled="true">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">C:\Desarrollo\framework-qa\jmeter\loginAntofagasta.txt</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">user,pass</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="BoletasAntofagasta" enabled="true">
+          <stringProp name="filename">C:\Desarrollo\framework-qa\jmeter\boletasAntofagasta.txt</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="variableNames">folioinicial,foliofinal</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+        </CSVDataSet>
+        <hashTree/>
         <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="Gestor de Cookies HTTP" enabled="true">
           <collectionProp name="CookieManager.cookies"/>
           <boolProp name="CookieManager.clearEachIteration">true</boolProp>
@@ -46,10 +70,10 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </ConfigTestElement>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="true">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="false">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">C:\Users\dlsclient\Desktop\Carpeta\Jmeter\login.txt</stringProp>
+          <stringProp name="filename">C:\Desarrollo\framework-qa\jmeter\login.txt</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -58,8 +82,8 @@
           <stringProp name="variableNames">user,pass</stringProp>
         </CSVDataSet>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Boletas" enabled="true">
-          <stringProp name="filename">C:\Users\dlsclient\Desktop\Carpeta\Jmeter\boletas.txt</stringProp>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Boletas" enabled="false">
+          <stringProp name="filename">C:\Desarrollo\framework-qa\jmeter\boletas.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">folioinicial,foliofinal</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -735,17 +759,27 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
+        <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="log" enabled="true">
+          <stringProp name="scriptLanguage">groovy</stringProp>
+          <stringProp name="parameters"></stringProp>
+          <stringProp name="filename"></stringProp>
+          <stringProp name="cacheKey"></stringProp>
+          <stringProp name="script">log.info(&quot;apertura: &quot;+vars.get(&quot;apertura&quot;));</stringProp>
+        </JSR223Sampler>
+        <hashTree/>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Controlador If" enabled="true">
-          <stringProp name="IfController.condition">&quot;${apertura}&quot;==&quot;abierta&quot;</stringProp>
+          <stringProp name="IfController.condition">&quot;${apertura}&quot;==&quot;Estado de caja&quot;</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
         </IfController>
         <hashTree>
-          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="log" enabled="true">
             <stringProp name="scriptLanguage">groovy</stringProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="cacheKey"></stringProp>
-            <stringProp name="script">log.info(&quot;usuario: &quot;+vars.get(&quot;user&quot;) + &quot; aperturo OK&quot;);</stringProp>
+            <stringProp name="script">log.info(&quot;usuario: &quot;+vars.get(&quot;user&quot;) + &quot; aperturo OK&quot;);
+int hilo=ctx.getThreadNum() +1;
+log.info(&quot;Hilo del usuario: &lt;&lt;&lt;&quot;+hilo+&quot;&gt;&gt;&gt;&gt;&quot;);</stringProp>
           </JSR223Sampler>
           <hashTree/>
         </hashTree>
@@ -754,7 +788,7 @@
           <boolProp name="IfController.evaluateAll">false</boolProp>
         </IfController>
         <hashTree>
-          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="JSR223 Sampler" enabled="true">
+          <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="log" enabled="true">
             <stringProp name="scriptLanguage">groovy</stringProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="filename"></stringProp>
@@ -765,6 +799,18 @@ log.info(&quot;Hilo del usuario: &lt;&lt;&lt;&quot;+hilo+&quot;&gt;&gt;&gt;&gt;&
           </JSR223Sampler>
           <hashTree/>
         </hashTree>
+        <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="Petición JDBC" enabled="true">
+          <stringProp name="dataSource"></stringProp>
+          <stringProp name="query">259525</stringProp>
+          <stringProp name="queryArguments"></stringProp>
+          <stringProp name="queryArgumentsTypes"></stringProp>
+          <stringProp name="queryTimeout"></stringProp>
+          <stringProp name="queryType">Select Statement</stringProp>
+          <stringProp name="resultSetHandler">Store as String</stringProp>
+          <stringProp name="resultVariable"></stringProp>
+          <stringProp name="variableNames"></stringProp>
+        </JDBCSampler>
+        <hashTree/>
       </hashTree>
     </hashTree>
     <WorkBench guiclass="WorkBenchGui" testclass="WorkBench" testname="Banco de Trabajo" enabled="true">
