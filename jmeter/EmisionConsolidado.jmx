@@ -49,7 +49,7 @@
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="true">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">C:\Users\dlsclient\Desktop\Carpeta\Jmeter\login.txt</stringProp>
+          <stringProp name="filename">C:\Desarrollo\framework-qa\jmeter\login.txt</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -59,7 +59,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login2" enabled="true">
-          <stringProp name="filename">C:\Users\dlsclient\Desktop\Carpeta\Jmeter\loginAntofagasta.txt</stringProp>
+          <stringProp name="filename">C:\Desarrollo\framework-qa\jmeter\loginAntofagasta.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">user2</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -71,7 +71,7 @@
         </CSVDataSet>
         <hashTree/>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Boleta" enabled="true">
-          <stringProp name="filename">C:\Users\dlsclient\Desktop\Carpeta\Jmeter\boletasAntofagasta.txt</stringProp>
+          <stringProp name="filename">C:\Desarrollo\framework-qa\jmeter\boletasAntofagasta.txt</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">folioincial,foliofinal</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>
@@ -96,7 +96,7 @@
             </elementProp>
             <elementProp name="horaEnvio" elementType="Argument">
               <stringProp name="Argument.name">horaEnvio</stringProp>
-              <stringProp name="Argument.value">00:40</stringProp>
+              <stringProp name="Argument.value">09:40</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
@@ -3542,12 +3542,24 @@
           </hashTree>
         </hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="NroOF es OK" enabled="true">
-          <stringProp name="IfController.condition">${__groovy(vars.get(&quot;nroOF&quot;) != &quot;999999999&quot;)};</stringProp>
+          <stringProp name="IfController.condition">&quot;${nroOF}&quot;!=&quot;999999999&quot;</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
         </IfController>
         <hashTree>
           <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Informes" enabled="true"/>
           <hashTree>
+            <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Log" enabled="true">
+              <stringProp name="scriptLanguage">groovy</stringProp>
+              <stringProp name="parameters"></stringProp>
+              <stringProp name="filename"></stringProp>
+              <stringProp name="cacheKey"></stringProp>
+              <stringProp name="script">log.info(&quot;Obtuvo orden de flete - EXITO!&quot;);
+log.info(&quot;usuario: &quot; + vars.get(&quot;user&quot;));
+log.info(&quot;orden de flete: &quot; + vars.get(&quot;nroOF&quot;));
+int hilo=ctx.getThreadNum()+1;
+log.info(&quot;usario/hilo:  &quot;+hilo);</stringProp>
+            </JSR223Sampler>
+            <hashTree/>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="565 /ddls/pago/pagoPendiente.do" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                 <collectionProp name="Arguments.arguments">
@@ -6707,16 +6719,6 @@
               </hashTree>
               <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="EmisionComprobante" enabled="true"/>
               <hashTree>
-                <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="log" enabled="true">
-                  <stringProp name="cacheKey"></stringProp>
-                  <stringProp name="filename"></stringProp>
-                  <stringProp name="parameters"></stringProp>
-                  <stringProp name="script">log.info(&quot;Sistema falla en el despliegue de la orden de flete&quot;);
-log.info(&quot;Fallo en el usuario: &quot; + vars.get(&quot;user&quot;));
-log.info(&quot;usario/hilo:  &quot;+ctx.getThreadNum());</stringProp>
-                  <stringProp name="scriptLanguage">groovy</stringProp>
-                </JSR223PostProcessor>
-                <hashTree/>
                 <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="691 /ddls/entrega/emisionComprobanteEntrega/emisionComprobanteEntrega.do" enabled="true">
                   <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
                     <collectionProp name="Arguments.arguments"/>
@@ -7684,7 +7686,7 @@ log.info(&quot;usario/hilo:  &quot;+ctx.getThreadNum());</stringProp>
           </hashTree>
         </hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="NroOF es NOK" enabled="true">
-          <stringProp name="IfController.condition">${__groovy(vars.get(&quot;nroOF&quot;) == &quot;999999999&quot;)};</stringProp>
+          <stringProp name="IfController.condition">&quot;${nroOF}&quot;==&quot;999999999&quot;</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
         </IfController>
         <hashTree>
@@ -7694,6 +7696,7 @@ log.info(&quot;usario/hilo:  &quot;+ctx.getThreadNum());</stringProp>
             <stringProp name="parameters"></stringProp>
             <stringProp name="script">log.info(&quot;Sistema falla en el despliegue de la orden de flete&quot;);
 log.info(&quot;Fallo en el usuario: &quot; + vars.get(&quot;user&quot;));
+log.info(&quot;Fallo en la orden de flete: &quot; + vars.get(&quot;nroOF&quot;));
 log.info(&quot;usario/hilo:  &quot;+ctx.getThreadNum());</stringProp>
             <stringProp name="scriptLanguage">groovy</stringProp>
           </JSR223PostProcessor>
