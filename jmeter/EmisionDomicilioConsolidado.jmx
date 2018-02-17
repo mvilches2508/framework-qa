@@ -281,7 +281,7 @@
             </elementProp>
             <elementProp name="hora" elementType="Argument">
               <stringProp name="Argument.name">hora</stringProp>
-              <stringProp name="Argument.value">10:16</stringProp>
+              <stringProp name="Argument.value">16:18</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
