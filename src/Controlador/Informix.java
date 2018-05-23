@@ -223,7 +223,7 @@ public class Informix {
         }
     }
     
-    public void generarCodigoDespacho() {
+    public void generarCodigoDespacho() throws SQLException {
         String query;
         ConnIfx conexion = ConnIfx.getInstancia();
         Statement sentencia = null;
@@ -245,10 +245,12 @@ public class Informix {
             while (rs.next()) {
                 setDespacho(rs.getString("encacodigobarra"));      
             }
-            rs.close();
-            sentencia.close();
+           
         } catch (SQLException ex) {
             System.out.println("Fallo en BD: " + ex);
+        }finally{
+             rs.close();
+            sentencia.close();
         }
     }
     
