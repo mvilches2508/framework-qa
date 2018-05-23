@@ -16,9 +16,9 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Controlador Bucle" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">20</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -183,20 +183,28 @@
               <stringProp name="Argument.value"></stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
+            <elementProp name="user" elementType="Argument">
+              <stringProp name="Argument.name">user</stringProp>
+              <stringProp name="Argument.value">dtorres</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="pass" elementType="Argument">
+              <stringProp name="Argument.name">pass</stringProp>
+              <stringProp name="Argument.value">seba2018</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="user2" elementType="Argument">
+              <stringProp name="Argument.name">user2</stringProp>
+              <stringProp name="Argument.value">gedocuser01</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="pass2" elementType="Argument">
+              <stringProp name="Argument.name">pass2</stringProp>
+              <stringProp name="Argument.value">12345678</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
           </collectionProp>
         </Arguments>
-        <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login" enabled="true">
-          <stringProp name="delimiter">,</stringProp>
-          <stringProp name="fileEncoding"></stringProp>
-          <stringProp name="filename">C:\Users\ManuelV\Documents\Fiscalia\Login.txt</stringProp>
-          <boolProp name="ignoreFirstLine">false</boolProp>
-          <boolProp name="quotedData">false</boolProp>
-          <boolProp name="recycle">true</boolProp>
-          <stringProp name="shareMode">shareMode.all</stringProp>
-          <boolProp name="stopThread">false</boolProp>
-          <stringProp name="variableNames">user,pass</stringProp>
-        </CSVDataSet>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="HiloProcesamiento" enabled="true">
           <stringProp name="CounterConfig.start">1</stringProp>
@@ -217,7 +225,7 @@
         </HeaderManager>
         <hashTree/>
         <CounterConfig guiclass="CounterConfigGui" testclass="CounterConfig" testname="NumDoc" enabled="true">
-          <stringProp name="CounterConfig.start">43</stringProp>
+          <stringProp name="CounterConfig.start">934</stringProp>
           <stringProp name="CounterConfig.end"></stringProp>
           <stringProp name="CounterConfig.incr">1</stringProp>
           <stringProp name="CounterConfig.name">NumDoc</stringProp>
@@ -1771,7 +1779,7 @@ log.info(&quot;variable token arreglada: &quot;+vars.get(&quot;token&quot;));</s
               <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ObtenerIdDocumento" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                 <stringProp name="RegexExtractor.refname">ObtenerIdDocumentoDirty</stringProp>
-                <stringProp name="RegexExtractor.regex">(idDocumento&quot;:\w[0-9]{1})</stringProp>
+                <stringProp name="RegexExtractor.regex">(idDocumento&quot;:\w[0-9]{2})</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default">NOT_NUMIDDOCUMENTO</stringProp>
                 <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -1862,14 +1870,14 @@ log.info(&quot;variable numEnvioDocumento arreglada: &quot;+vars.get(&quot;numEn
               <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ObtenerNumDocumentoEnvio" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                 <stringProp name="RegexExtractor.refname">numDocumentoDirty</stringProp>
-                <stringProp name="RegexExtractor.regex">(idEnvioDocumento&quot;:\w[0-9]{1},&quot;idDocumento&quot;:${numEnvioDocumento},&quot;numIngreso&quot;:${numIngreso})</stringProp>
+                <stringProp name="RegexExtractor.regex">(idEnvioDocumento&quot;:\w[0-9]{2},&quot;idDocumento&quot;:${numEnvioDocumento},&quot;numIngreso&quot;:${numIngreso})</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
-                <stringProp name="RegexExtractor.default">NOT_NUMINGRESO</stringProp>
+                <stringProp name="RegexExtractor.default">NOT_NUMDOCENVIO</stringProp>
                 <stringProp name="RegexExtractor.match_number"></stringProp>
               </RegexExtractor>
               <hashTree/>
             </hashTree>
-            <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="log" enabled="true">
+            <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="ajusteVariablesNumEnvioDocumento" enabled="true">
               <stringProp name="scriptLanguage">groovy</stringProp>
               <stringProp name="parameters"></stringProp>
               <stringProp name="filename"></stringProp>
@@ -2009,24 +2017,24 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
               <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="ObtenerNumeroDespacho" enabled="true">
                 <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                 <stringProp name="RegexExtractor.refname">numDespachoDirty</stringProp>
-                <stringProp name="RegexExtractor.regex">(numeroDespacho&quot;:\w[0-9]{10})</stringProp>
+                <stringProp name="RegexExtractor.regex">(numeroDespacho&quot;:&quot;A\w[0-9]{8})</stringProp>
                 <stringProp name="RegexExtractor.template">$1$</stringProp>
                 <stringProp name="RegexExtractor.default">NOT_NUMDESPACHO</stringProp>
                 <stringProp name="RegexExtractor.match_number"></stringProp>
               </RegexExtractor>
               <hashTree/>
             </hashTree>
-            <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="log" enabled="true">
+            <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="ajusteVariablesNumDespacho" enabled="true">
               <stringProp name="scriptLanguage">groovy</stringProp>
               <stringProp name="parameters"></stringProp>
               <stringProp name="filename"></stringProp>
               <stringProp name="cacheKey">true</stringProp>
               <stringProp name="script">int threadNum=ctx.getThreadNum()+1;
 log.info(&quot; Obtengo el numero de despacho &quot;+vars.get(&quot;numDespachoDirty&quot;));
-String newNDoc=vars.get(&quot;numDespachoDirty&quot;).substring(18,20);
+String newNDoc=vars.get(&quot;numDespachoDirty&quot;).substring(17,27);
 //log.info(&quot;DATA:&quot;+newNDoc);
-vars.put(&quot;numEnvioDocumento&quot; , newNDoc);
-log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocumento&quot;));
+vars.put(&quot;numDespacho&quot; , newNDoc);
+log.info(&quot;variable numDespacho arreglada: &quot;+vars.get(&quot;numDespacho&quot;));
 </stringProp>
             </JSR223Sampler>
             <hashTree/>
@@ -2144,7 +2152,7 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
               <hashTree/>
             </hashTree>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="BusquedaDocumentos" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="BusquedaDocumentos" enabled="false"/>
           <hashTree>
             <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Inicio BusquedaDocumentos" enabled="true">
               <stringProp name="scriptLanguage">groovy</stringProp>
@@ -2522,7 +2530,7 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
             </JSR223Sampler>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ReportesGestion" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ReportesGestion" enabled="false"/>
           <hashTree>
             <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Inicio ReportesGestion" enabled="true">
               <stringProp name="scriptLanguage">groovy</stringProp>
@@ -2973,7 +2981,7 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
             </JSR223Sampler>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="WSFilenet" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="WSFilenet" enabled="false"/>
           <hashTree>
             <JSR223Sampler guiclass="TestBeanGUI" testclass="JSR223Sampler" testname="Inicio WSFilenet" enabled="true">
               <stringProp name="scriptLanguage">groovy</stringProp>
@@ -2996,7 +3004,7 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
                 &lt;objectStore&gt;MP1OS&lt;/objectStore&gt;&#xd;
                 &lt;documentClass&gt;sistemacontroldoc&lt;/documentClass&gt;&#xd;
                 &lt;Ruc&gt;0&lt;/Ruc&gt;&#xd;
-                &lt;usuario&gt;gedocuser01&lt;/usuario&gt;&#xd;
+                &lt;usuario&gt;${user2}&lt;/usuario&gt;&#xd;
                 &lt;documentTitle&gt;PruebaDeCarga${HiloProcesamiento}.txt&lt;/documentTitle&gt;&#xd;
                 &lt;docContentB64&gt;RXN0ZSBlcyB1bmVqZW1wbG8uLi4uLg==&lt;/docContentB64&gt;&#xd;
                 &lt;mimeType&gt;text/plain&lt;/mimeType&gt;&#xd;
@@ -3011,7 +3019,7 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
                     &lt;/item&gt;&#xd;
                     &lt;item&gt;&#xd;
                         &lt;name&gt;Usuario&lt;/name&gt;&#xd;
-                        &lt;value&gt;gedocuser01&lt;/value&gt;&#xd;
+                        &lt;value&gt;${user2}&lt;/value&gt;&#xd;
                     &lt;/item&gt;&#xd;
                     &lt;item&gt;&#xd;
                         &lt;name&gt;registroSAF&lt;/name&gt;&#xd;
@@ -3054,8 +3062,8 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
                         &lt;value&gt;SCDOC&lt;/value&gt;&#xd;
                     &lt;/item&gt;&#xd;
                 &lt;/Metadata&gt;&#xd;
-                &lt;userLDAP&gt;gedocuser01&lt;/userLDAP&gt;&#xd;
-                &lt;passLDAP&gt;12345678&lt;/passLDAP&gt;&#xd;
+                &lt;userLDAP&gt;${user2}&lt;/userLDAP&gt;&#xd;
+                &lt;passLDAP&gt;${pass2}&lt;/passLDAP&gt;&#xd;
             &lt;/SubirDocumentoRequest&gt;&#xd;
         &lt;/SubirDocumentoRequest&gt;&#xd;
     &lt;/soapenv:Body&gt;&#xd;
@@ -3246,7 +3254,7 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
             </JSR223Sampler>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="EdicionDocumentos" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="EdicionDocumentos" enabled="false"/>
           <hashTree>
             <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="LoginDTorres" enabled="true"/>
             <hashTree>
@@ -4049,7 +4057,7 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
             </JSR223Sampler>
             <hashTree/>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="DerivaciónDocumentos" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="DerivaciónDocumentos" enabled="false"/>
           <hashTree>
             <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="LoginGedocUser" enabled="true"/>
             <hashTree>
@@ -5208,7 +5216,7 @@ log.info(&quot;variable numIngreso arreglada: &quot;+vars.get(&quot;numEnvioDocu
               <hashTree/>
             </hashTree>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ConsultaGuiaDespacho" enabled="true"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ConsultaGuiaDespacho" enabled="false"/>
           <hashTree>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="42 /scdoc-restapi/scdoc/getEstadosDocumentos" enabled="true">
               <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">

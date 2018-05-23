@@ -558,7 +558,7 @@ public class Frm_Lanzador extends javax.swing.JFrame {
         rdb.add(rdb_Test);
     }//Agrupa los radio button, los mismo se encuentran no visibles.
     
-    private Thread getEjecucion(String indice) {    
+    private Thread getEjecucion(final String indice) {    
         Thread hilo = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -586,7 +586,7 @@ public class Frm_Lanzador extends javax.swing.JFrame {
         return hilo;
     }//Método que permite la ejecución de un universo de test case.
     
-    private Thread getEjecucion1(String nomPrueba) {
+    private Thread getEjecucion1(final String nomPrueba) {
         Thread hilo = new Thread(new Runnable() {
             @Override
             public void run() {

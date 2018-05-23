@@ -1,0 +1,91 @@
+
+Request:
+--------
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <SubirDocumentoRequest xmlns="http://ws.subir.filenet.com">
+            <SubirDocumentoRequest>
+                <objectStore>MP1OS</objectStore>
+                <documentClass>sistemacontroldoc</documentClass>
+                <Ruc>0</Ruc>
+                <usuario>gedocuser01</usuario>
+                <documentTitle>adjunto5 (1).txt</documentTitle>
+                <docContentB64>RXN0ZSBlcyB1bmVqZW1wbG8uLi4uLg==</docContentB64>
+                <mimeType>text/plain</mimeType>
+                <Metadata>
+                    <item>
+                        <name>ruc</name>
+                        <value>0</value>
+                    </item>
+                    <item>
+                        <name>estadodocumento</name>
+                        <value>Pendiente</value>
+                    </item>
+                    <item>
+                        <name>Usuario</name>
+                        <value>gedocuser01</value>
+                    </item>
+                    <item>
+                        <name>registroSAF</name>
+                        <value>No</value>
+                    </item>
+                    <item>
+                        <name>idsistema</name>
+                        <value>03</value>
+                    </item>
+                    <item>
+                        <name>idfiscalia</name>
+                        <value>99</value>
+                    </item>
+                    <item>
+                        <name>TipoDocumento</name>
+                        <value>Documentos RRHH</value>
+                    </item>
+                    <item>
+                        <name>exponedocumento</name>
+                        <value>Público</value>
+                    </item>
+                    <item>
+                        <name>fechaingresodoc</name>
+                        <value>26-04-2018</value>
+                    </item>
+                    <item>
+                        <name>nombreunidad</name>
+                        <value>Oficina de Partes - FN</value>
+                    </item>
+                    <item>
+                        <name>materia</name>
+                        <value></value>
+                    </item>
+                    <item>
+                        <name>DocumentTitle</name>
+                        <value>adjunto5 (1).txt</value>
+                    </item>
+                    <item>
+                        <name>nombresistema</name>
+                        <value>SCDOC</value>
+                    </item>
+                </Metadata>
+                <userLDAP>gedocuser01</userLDAP>
+                <passLDAP>12345678</passLDAP>
+            </SubirDocumentoRequest>
+        </SubirDocumentoRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+Response:
+---------
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <p145:SubirDocumentoResponse xmlns:p145="http://ws.subir.filenet.com">
+            <p145:SubirDocumentoResponse>
+                <p145:codResult>0</p145:codResult>
+                <p145:descResult />
+                <p145:id>{2DF7C77C-1CEB-4EA6-9409-FC6F11D6BA91}</p145:id>
+            </p145:SubirDocumentoResponse>
+        </p145:SubirDocumentoResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
