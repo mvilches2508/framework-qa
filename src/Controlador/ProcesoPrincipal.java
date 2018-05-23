@@ -15,6 +15,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
@@ -186,7 +187,7 @@ public class ProcesoPrincipal {//Contiene todos los métodos a ejecutar
      */
     
     /* ESTE FLUJO CORRESPONDE AL FLUJO PRINCIPAL (CORRESPONDE A LA EJECUCION PRINCIPAL DEL PROCESO   */
-    public void executeTest() throws InterruptedException, IOException, AWTException {//Ejecuta los casos DLS
+    public void executeTest() throws InterruptedException, IOException, AWTException, SQLException {//Ejecuta los casos DLS
         preCondicion();
         if (STATUS == 0) {
             StringBuffer sLog = new StringBuffer();
@@ -283,7 +284,7 @@ public class ProcesoPrincipal {//Contiene todos los métodos a ejecutar
             }
         }
     }
-    public void executeTestByName(String nomTest) throws InterruptedException, IOException, AWTException {
+    public void executeTestByName(String nomTest) throws InterruptedException, IOException, AWTException, SQLException {
         String cadena = nomTest;
         int p1 = cadena.indexOf("DLS");
         int p2 = cadena.indexOf("Web");
@@ -384,7 +385,7 @@ public class ProcesoPrincipal {//Contiene todos los métodos a ejecutar
         }     
     }
     
-    public void executeTestWeb() throws InterruptedException, IOException, AWTException {//Ejecuta los casos DLS
+    public void executeTestWeb() throws InterruptedException, IOException, AWTException, SQLException {//Ejecuta los casos DLS
         preCondicion2();
         if (STATUS == 0) {
             StringBuffer sLog = new StringBuffer();
@@ -559,7 +560,7 @@ public class ProcesoPrincipal {//Contiene todos los métodos a ejecutar
     }
     
     /*  IMPORTANTE: CORRESPONDE A LA ACCIÓN DE CADA ELEMENTO DE LA PAGINA*/
-    private boolean isEjecutaComando(String comando, WebElement elemento, String dato) throws InterruptedException, AWTException {
+    private boolean isEjecutaComando(String comando, WebElement elemento, String dato) throws InterruptedException, AWTException, SQLException {
         boolean i = false;   //Comandos a ejecutar
         Robot robot = new Robot();
         Actions builder = new Actions(driver);
